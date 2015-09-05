@@ -111,7 +111,7 @@ class FskEncoder(object):
         num_packets_written = 0
       remaining_bytes -= size
       offset += size
-    yield self._code_blank(1.0)
+    yield self._code_blank(3.5)
 
 
 def main():

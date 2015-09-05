@@ -29,8 +29,8 @@
 #ifndef STM_AUDIO_BOOTLOADER_FSK_PACKET_DECODER_H_
 #define STM_AUDIO_BOOTLOADER_FSK_PACKET_DECODER_H_
 
-#include "stmlib/stmlib.h"
-#include "stmlib/utils/ring_buffer.h"
+#include "../stmlib/stmlib.h"
+#include "../stmlib/utils/ring_buffer.h"
 
 namespace stm_audio_bootloader {
 
@@ -43,7 +43,8 @@ enum PacketDecoderState {
   PACKET_DECODER_STATE_END_OF_TRANSMISSION
 };
 
-const uint16_t kMaxSyncDuration = 500;  // Symbols
+//const uint16_t kMaxSyncDuration = 500;  // Symbols
+const uint16_t kMaxSyncDuration = 9167;  // Symbols
 const uint16_t kPreambleSize = 32;
 const uint16_t kPacketSize = 256;
 

@@ -22,11 +22,11 @@
 // 
 // See http://creativecommons.org/licenses/MIT/ for more information.
 
-#include "stm_audio_bootloader/fsk/packet_decoder.h"
+#include "../stm-audio-bootloader/fsk/packet_decoder.h"
 
 #include <cstdio>
 
-#include "stmlib/utils/crc32.h"
+#include "../stmlib/utils/crc32.h"
 
 namespace stm_audio_bootloader {
 
