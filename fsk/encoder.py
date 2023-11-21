@@ -32,7 +32,8 @@ import numpy
 import optparse
 import zlib
 
-from stm_audio_bootloader import audio_stream_writer
+# from stm_audio_bootloader import audio_stream_writer
+import audio_stream_writer
 
 
 class FskEncoder(object):
